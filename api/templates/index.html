@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style media="screen">
+      .boxed{
+        background-repeat: no-repeat;
+        height: 25%;
+        width: 120%;
+        position: fixed;
+        top: 0px;
+        font-size: 50px;
+      }
+
+      .boxed2{
+        position: fixed;
+        bottom: 0px;
+        height: 25%;
+        width: 120%;
+      }
+
+    </style>
+
+    <h1>MLOps Take Home Quiz</h1>
+  </head>
+
+  <body>
+    <div class="boxed">
+    <h1 style="position:fixed; left: 10px;"> Digit Recognition  App</h1>
+    </div>
+
+    <div class="boxed2">
+
+    <form action="/predictweb" method="post" enctype="multipart/form-data">
+      <input style="position:fixed; font-size:20px; left:20px; top:200px; height: 25px; color:rgb(226, 8, 226);" type="file" name="Image 1 file">
+
+      <input style="position:fixed; font-size:20px; left:20px; top:250px; height: 25px; color:rgb(13, 17, 147);" type="file" name="Image 2 file">
+
+
+      <input style="position:fixed; font-size:25px; left:20px; top:350px; height: 30px; width: 30%;height: 7.5%;border-radius:10px;" type="submit"  value="Predict Digit and Compare">
+    </form>
+
+    </div>
+  </body>
+</html>
